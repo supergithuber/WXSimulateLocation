@@ -41,7 +41,6 @@
 		C7487B882242146D00D3A3B4 = {
 			isa = PBXGroup;
 			children = (
-				C7487BA72242149100D3A3B4 /* Resources */,
 				C7487B932242146D00D3A3B4 /* WXSimulateLocation */,
 				C7487B922242146D00D3A3B4 /* Products */,
 			);
@@ -58,6 +57,7 @@
 		C7487B932242146D00D3A3B4 /* WXSimulateLocation */ = {
 			isa = PBXGroup;
 			children = (
+				C7487BA72242149100D3A3B4 /* Resources */,
 				C7487BAA2242152200D3A3B4 /* Algorithm */,
 				C7487B942242146D00D3A3B4 /* AppDelegate.swift */,
 				C7487B962242146D00D3A3B4 /* ViewController.swift */,

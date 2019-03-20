@@ -10,7 +10,7 @@ import UIKit
 
 //获取高德坐标：https://lbs.amap.com/console/show/picker
 //获取百度坐标：http://api.map.baidu.com/lbsapi/getpoint/index.html
-
+//对应语言飘逸还原算法：https://github.com/googollee/eviltransform
 /**
  1. 去上面的地方获取你想要的位置对应的国产坐标
  2. 用本程序LocationTransform对应的方法转换成原始坐标
