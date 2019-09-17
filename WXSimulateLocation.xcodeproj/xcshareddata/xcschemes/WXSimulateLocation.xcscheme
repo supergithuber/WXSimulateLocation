@@ -64,7 +64,7 @@
       <AdditionalOptions>
       </AdditionalOptions>
       <LocationScenarioReference
-         identifier = "../../Resources/LongGuangLocation.gpx"
+         identifier = "../../WXSimulateLocation/Resources/LongGuangLocation.gpx"
          referenceType = "0">
       </LocationScenarioReference>
    </LaunchAction>

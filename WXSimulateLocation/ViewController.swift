@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         /// 龙光大厦A栋：22.548586, 113.887059 || 22.551631043945314: 113.88217069433593
-        // 深圳：22.543847, 113.912316
+        // 深圳：22.543847, 113.912316 || 22.546899978515626, 113.90745393945312
         let (lat, lng) = LocationTransform.gcj2wgs_exact(gcjLat: 22.548586, gcjLng: 113.887059)
         print("\(lat): \(lng)")
     }
