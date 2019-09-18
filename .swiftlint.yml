@@ -1,0 +1,25 @@
+disabled_rules: # 禁用指定的规则
+- colon
+- comma
+- control_statement
+- vertical_whitespace
+- line_length
+- trailing_whitespace
+- missing_docs
+- trailing_newline
+- identifier_name
+opt_in_rules: # 启用指定的规则
+- empty_count
+# 可以通过执行如下指令来查找所有可用的规则:
+# swiftlint rules
+# included: # 执行 linting 时包含的路径。如果出现这个 `--path` 会被忽略。
+# - Source
+excluded: # 执行 linting 时忽略的路径。 优先级比 `included` 更高。
+- Carthage
+- Pods
+
+# 可配置的规则可以通过这个配置文件来自定义
+# 二进制规则可以设置他们的严格程度
+# identifier_name:
+# min_length: # 只有最小长度
+# error: 2 # 只有错误
